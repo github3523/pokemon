@@ -26,6 +26,6 @@ new class extends Component
 <img src="{{ asset('images/pikachu.jpeg') }}" alt="Pikachu">
 
     @if ($count >= 10)
-        <p>Congratulations! you now have 10 pokemon</p>
+        <p><i><u>Congratulations! you now have 10 pokemon</u></i></p>
     @endif
 </div>
