@@ -15,7 +15,7 @@
 
     <body class="antialiased bg-gradient-to-br from-yellow-300 via-amber-300 to-red-400">
 
-        <div class="flex min-h-dvh items-center justify-center px-4 py-8 font-fun">
+        <div class="flex min-h-dvh flex-col items-center justify-center gap-4 px-4 py-8 font-fun">
             <div class="w-full max-w-sm overflow-hidden rounded-3xl border-4 border-slate-900 bg-white shadow-[8px_8px_0_0_#0f172a]">
                 <div class="relative bg-red-500 px-6 pt-6 pb-10 text-center">
                     <h5 id="pokcount" class="text-2xl font-bold tracking-wide text-white drop-shadow-[2px_2px_0_#0f172a]">Pokemon Count</h5>
@@ -28,6 +28,9 @@
                     <livewire:counter />
                 </div>
             </div>
+            <a href="https://paypal.me/NTadesse330" target="_blank" rel="noopener noreferrer" class="text-xs text-slate-900/50 transition hover:text-slate-900/80 hover:underline">
+                Enjoying this? Tip @NTadesse330 on PayPal
+            </a>
         </div>
 
         @livewireScripts
